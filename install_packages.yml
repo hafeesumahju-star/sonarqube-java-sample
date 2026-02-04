@@ -1,0 +1,15 @@
+---
+- name: Install monitoring tools on SonarQube
+  hosts: sonarqube
+  become: yes
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install htop and git
+      apt:
+        pkg:
+          - htop
+          - git
+        state: present
