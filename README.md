@@ -86,3 +86,12 @@ Later I will add screenshots of:
 ### SonarQube issues
 
 ![SonarQube Issues](images/sonarqube-issues.png)
+
+## Skills demonstrated
+
+- Provisioned and secured an Ubuntu EC2 instance in a public subnet on AWS.
+- Installed and configured SonarQube 10.x with Java 17, including kernel and memory tuning.
+- Created and built a Java Maven project and managed it with Git and GitHub.
+- Integrated Maven with SonarQube using tokens and CLI analysis.
+- Interpreted SonarQube dashboard metrics (bugs, vulnerabilities, code smells, quality gate).
+
