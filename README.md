@@ -63,3 +63,13 @@ This lab shows how I, Azeem Hafeez M, set up SonarQube on an Ubuntu 22.04 server
 Later I will add screenshots of:
 - SonarQube dashboard.
 - Issues list for this project.
+
+## Result
+
+- SonarQube server URL: http://65.2.187.163:9000
+- Project key: sonarqube-java-sample
+- Analysis triggered using Maven:
+
+  mvn clean verify sonar:sonar -Dsonar.projectKey=sonarqube-java-sample -Dsonar.host.url=http://65.2.187.163:9000 -Dsonar.login=<token-not-shown-here>
+
+- The SonarQube dashboard shows overall quality gate status and issues (bugs, vulnerabilities, code smells).
