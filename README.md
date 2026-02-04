@@ -73,3 +73,16 @@ Later I will add screenshots of:
   mvn clean verify sonar:sonar -Dsonar.projectKey=sonarqube-java-sample -Dsonar.host.url=http://65.2.187.163:9000 -Dsonar.login=<token-not-shown-here>
 
 - The SonarQube dashboard shows overall quality gate status and issues (bugs, vulnerabilities, code smells).
+## Screenshots
+
+### EC2 instance
+
+![EC2 Instance](images/ec2-instance.png)
+
+### SonarQube dashboard
+
+![SonarQube Dashboard](images/sonarqube-dashboard.png)
+
+### SonarQube issues
+
+![SonarQube Issues](images/sonarqube-issues.png)
